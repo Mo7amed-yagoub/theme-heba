@@ -1,4 +1,8 @@
 
+/* Header */
+.store-header {
+  @apply mx-11;
+}
 /* Top Nav */
 .top-navbar {
   @apply flex py-2 min-h-[48px];
@@ -63,22 +67,23 @@
 
 /* Main Nav */
 .main-nav-container {
-  @apply min-h-[68px] lg:min-h-[84px];
+  @apply min-h-[68px] lg:min-h-[84px] rounded-full;
   
-  // Custom background Color
+  /* Custom background Color
   .has-bg &,
   .has-bg & .sub-menu{
     @apply bg-[color:var(--mainnav-bg)];
+    
   }
-
   // Custom text color
   .has-text-color & {
-    @apply text-[color:var(--mainnav-text-color)];
+    @apply text-[#dad5d1];
   }
+  */
 }
 
 .menu-item {
-  @apply flex items-center px-6 py-2.5 sm:text-sm text-gray-500 transition-colors duration-300 hover:bg-gray-200/30;
+  @apply flex items-center px-6 py-2.5 sm:text-sm text-[#dad5d1] transition-colors duration-300 hover:bg-gray-200/30;
 
   &.logout{
     @apply text-red-400;
@@ -100,7 +105,7 @@
   &.fixed-pinned {
     .inner {
       position: fixed;
-      top: 0;
+      top: 10;
       right: 0;
       left: 0;
       width: 100%;
