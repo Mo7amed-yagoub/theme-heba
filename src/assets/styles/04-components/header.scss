@@ -64,9 +64,10 @@
 /* Main Nav */
 .main-nav-container {
   @apply min-h-[68px] lg:min-h-[84px];
+  @apply rounded-b-[20px];
   
   // Custom background Color
-  .has-bg &,
+  /*.has-bg &,
   .has-bg & .sub-menu{
     @apply bg-[color:var(--mainnav-bg)];
   }
@@ -74,7 +75,7 @@
   // Custom text color
   .has-text-color & {
     @apply text-[color:var(--mainnav-text-color)];
-  }
+  }*/
 }
 
 .menu-item {
@@ -96,16 +97,18 @@
       transition: top 0.5s, transform 0.5s, -webkit-transform 0.5s, opacity 0.4s;
     }
   }
-
+.inner {
+  @apply rounded-b-[20px];
+}
   &.fixed-pinned {
     .inner {
       position: fixed;
       top: 0;
-      right: 0;
-      left: 0;
-      width: 100%;
+      right: 56;
+      left: 56;
+      width: calc(100% - 112px);
       z-index: 29;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);*/
       transform: translate3d(0, -100%, 0);
 
       @media (max-width: 1024px){
@@ -133,6 +136,7 @@
   &.fixed-header {
     .inner {
       transform: translate3d(0, 0, 0);
+      @apply bg-[#4a2c2a];
 
       @media (max-width: 1024px){
         transform: none;
@@ -172,7 +176,7 @@ salla-user-menu{
 }
 
 .s-cart-summary-count{
-  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5;
+  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 bg-red-800;
 }
 
 #nav-cart{
