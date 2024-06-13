@@ -4494,7 +4494,7 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
 .footer-is-light .store-footer .social-link{--tw-border-opacity:1;border-color:rgba(209, 213, 219, 1);border-color:rgba(209, 213, 219, var(--tw-border-opacity))}
 .footer-is-light .store-footer .contact-social{--tw-border-opacity:1;border-color:rgba(243, 244, 246, 1);border-color:rgba(243, 244, 246, var(--tw-border-opacity))}
 .copyright-text p{--tw-text-opacity:1;color:rgba(55, 65, 81, 1);color:rgba(55, 65, 81, var(--tw-text-opacity))}
-.main-menu > li > a[href*=offer]{--tw-text-opacity:1;color:rgba(153, 27, 27, 1);color:rgba(153, 27, 27, var(--tw-text-opacity))}
+.main-menu > li > a[href*=offer]{--tw-text-opacity:1;color:rgba(208, 145, 51, 1);color:rgba(208, 145, 51, var(--tw-text-opacity));--tw-border-opacity:1;border-bottom-color:rgba(161, 98, 7, 1);border-bottom-color:rgba(161, 98, 7, var(--tw-border-opacity))}
 @media only screen and (min-width: 1024px) {
   .main-menu{margin-left:1.5rem;margin-right:1.5rem;display:none;flex-wrap:wrap;align-items:center;padding-top:2rem;padding-bottom:0px}
   @media (min-width: 1024px){
@@ -4504,7 +4504,8 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
     padding-bottom: 0;
   }
   .main-menu li > a{display:flex;align-items:center;justify-content:space-between;padding:0.75rem;font-size:0.875rem;line-height:1.25rem;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:300ms}
-  .main-menu li > a:hover{color:#996515;color:var(--color-primary);text-decoration-line:none}
+  .main-menu li > a:hover{--tw-text-opacity:1;color:rgba(194, 178, 128, 1);color:rgba(194, 178, 128, var(--tw-text-opacity));text-decoration-line:none}
+  .main-menu li > a{--tw-text-opacity:1;color:rgba(218, 213, 209, 1);color:rgba(218, 213, 209, var(--tw-text-opacity))}
   .main-menu li.root-level{display:inline-block}
   .main-menu li.root-level > a{padding-top:0px;padding-bottom:2rem;font-weight:700}
   .main-menu > .has-children:hover > a {
